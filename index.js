@@ -27,6 +27,9 @@ app.get("/planes", async (req, res) => {
 });
 
 // Servidor
-app.listen(3001, () => {
-  console.log("API Wisphub corriendo en http://localhost:3001");
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`API Wisphub corriendo en el puerto ${PORT}`);
 });
+
