@@ -1,0 +1,23 @@
+{
+  "name": "wisphub-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.87.1",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "mikronode-ng": "^1.0.11",
+    "mysql2": "^3.13.3",
+    "node-cron": "^4.2.1"
+  }
+}
